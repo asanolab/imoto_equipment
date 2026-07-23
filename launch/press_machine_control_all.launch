@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <launch>
   <!-- ros_bridge node -->
-  <include file="$(find press_machine_control)/launch/plc_ros_bridge_heatpress_IMC6219.launch" />
-  <include file="$(find press_machine_control)/launch/plc_ros_bridge_coldpress_IMC6219.launch" />
-  <!-- <include file="$(find press_machine_control)/launch/plc_ros_bridge_cutter_IMC62F1.launch" /> -->
+  <include file="$(find imoto_equipment)/launch/plc_ros_bridge_heatpress_IMC6219.launch" />
+  <include file="$(find imoto_equipment)/launch/plc_ros_bridge_coldpress_IMC6219.launch" />
+  <!-- <include file="$(find imoto_equipment)/launch/plc_ros_bridge_cutter_IMC62F1.launch" /> -->
   <!-- operator node -->
-  <include file="$(find press_machine_control)/launch/heatpress_operator.launch" />
-  <include file="$(find press_machine_control)/launch/coldpress_operator.launch" />
-  <!-- <include file="$(find press_machine_control)/launch/cutter_operator.launch" /> -->
+  <include file="$(find imoto_equipment)/launch/heatpress_operator.launch" />
+  <include file="$(find imoto_equipment)/launch/coldpress_operator.launch" />
+  <!-- <include file="$(find imoto_equipment)/launch/cutter_operator.launch" /> -->
 </launch>

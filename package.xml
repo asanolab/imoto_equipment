@@ -1,7 +1,7 @@
 <package format="2">
-  <name>press_machine_control</name>
+  <name>imoto_equipment</name>
   <version>0.1.0</version>
-  <description> press machine control </description>
+  <description> Control software for press machine made by Imoto machinery </description>
 
   <maintainer email="yuki.asano3206@gmail.com">Yuki Asano</maintainer>
   <author email="yuki.asano3206@gmail.com">Yuki Asano</author>

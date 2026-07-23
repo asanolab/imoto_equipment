@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <launch>
-  <node name="coldpress_operator" pkg="press_machine_control" type="coldpress_operator_node.py" output="screen">
+  <node name="coldpress_operator" pkg="imoto_equipment" type="coldpress_operator_node.py" output="screen">
   </node>
 </launch>

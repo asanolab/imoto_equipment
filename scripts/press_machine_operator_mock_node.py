@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import rospy
-from press_machine_control.press_machine_operator_mock import HeatpressOperatorMock
-from press_machine_control.press_machine_operator_mock import ColdpressOperatorMock
+from imoto_equipment.press_machine_operator_mock import HeatpressOperatorMock
+from imoto_equipment.press_machine_operator_mock import ColdpressOperatorMock
 
 
 def main():

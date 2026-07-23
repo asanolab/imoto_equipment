@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import rospy
-from press_machine_control.coldpress_operator import ColdpressOperator
+from imoto_equipment.coldpress_operator import ColdpressOperator
 
 
 def main():

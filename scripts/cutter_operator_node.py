@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import rospy
-from press_machine_control.cutter_operator import CutterOperator
+from imoto_equipment.cutter_operator import CutterOperator
 
 
 def main():

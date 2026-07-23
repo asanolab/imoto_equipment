@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.0)
-project(press_machine_control)
+project(imoto_equipment)
 
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
