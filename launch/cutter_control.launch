@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- ros_bridge node -->
+  <include file="$(find imoto_equipment)/launch/plc_ros_bridge_cutter_IMC62F1.launch" />
+  <!-- operator node -->
+  <include file="$(find imoto_equipment)/launch/cutter_operator.launch" />
+</launch>
